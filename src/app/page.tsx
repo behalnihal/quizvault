@@ -1,10 +1,11 @@
+import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 
 export default function Home() {
   return (
     <div className="w-full min-h-screen flex flex-col items-center justify-center">
       {/* Hero Section */}
-      <header className="text-center p-8">
+      <header className="text-center p-4">
         <h1 className="text-5xl font-extrabold mb-4">Welcome to QuizVault</h1>
         <p className="text-lg mb-6">
           Your ultimate platform to create, share, and take quizzes. Enhance
@@ -12,8 +13,10 @@ export default function Home() {
         </p>
       </header>
 
+      <Button>Get Started</Button>
+
       {/* Features Section */}
-      <section className="w-full max-w-4xl mt-12 px-4">
+      <div className="w-full max-w-4xl mt-12 px-4">
         <h2 className="text-3xl font-bold text-center mb-8">
           Why Choose QuizVault?
         </h2>
@@ -43,7 +46,7 @@ export default function Home() {
             </CardContent>
           </Card>
         </div>
-      </section>
+      </div>
     </div>
   );
 }

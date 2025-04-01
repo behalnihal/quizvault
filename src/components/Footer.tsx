@@ -1,6 +1,6 @@
 export const Footer = () => {
   return (
-    <footer className="py-4">
+    <footer className="py-4 border-t">
       <div className="container mx-auto flex flex-row items-center justify-between px-4">
         {/* Author */}
         <div className="flex items-center space-x-2">

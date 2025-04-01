@@ -8,7 +8,7 @@ export const Navbar = () => {
         {/* Logo  */}
         <div className="text-2xl flex-1">
           <Link href="/" className="flex items-center">
-            <span className=" backdrop:blur-2xl bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-red-600 font-bold text-transparent text-xl">
+            <span className=" backdrop:blur-2xl bg-clip-text bg-gradient-to-r from-yellow-700 via-orange-800 to-red-900 font-bold text-transparent text-xl">
               QuizVault
             </span>
           </Link>
